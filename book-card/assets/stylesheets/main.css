@@ -1,0 +1,1087 @@
+/* Global Settings */
+
+body {
+    margin: 0px;
+    background: url("data:image/jpeg;base64,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");
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: "Lato", Georgia, serif;
+    color:#333;
+  
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+/* Helper Classes */
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.clearfix:after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+.center{
+    text-align:center;
+}
+.back,.mid{
+    background-image:linear-gradient(to right,#fff 90%,rgba(0,0,0,0.5) 100%);}
+
+/* card container */
+#container{
+    margin:0 auto;
+    width:25%;
+    perspective:4000px;
+    margin-left:35%;
+}
+.resume-card-wrapper{
+    width:430px;
+    height: 510px;
+    margin-top:60px;
+position: relative;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+/**right side of card **/
+.resume-card-right{
+    height:100%;
+    width:100%;
+    position: relative;
+transform-style: preserve-3d;
+transition: transform 1.5s;
+transform-origin: right;
+z-index:500;
+ /* transition-delay: 0.5s; */
+}
+
+
+.resume-card-right .front,
+.resume-card-right .back{
+width:100%;
+height:100%;
+backface-visibility: hidden;
+}
+ .resume-card-right .front
+{
+background-image: url("http://themes.pixelwars.org/bookcard-wp/wp-content/uploads/2013/04/cover-2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+position: absolute;
+z-index:50;
+
+}
+
+.resume-card-right .back{
+        background-color: #fff;
+        position: absolute;
+        z-index:410;
+        transform: rotateY(-180deg);
+        overflow-y:scroll; 
+        
+        }
+
+
+        .resume-card-wrapper:hover .resume-card-right{
+            transform:rotateY(180deg);
+            transition-delay: 0.5s;
+        }
+        
+/**front of left side**/
+.resume-card-left{
+    height:100%;
+    width:100%;
+    position: absolute;
+transform-style: preserve-3d;
+transition: transform 1.5s;
+transform-origin: left;
+ top:0;
+ z-index:50000;
+}
+
+
+.resume-card-left .front,
+.resume-card-left .back{
+width:100%;
+height:100%;
+}
+ .resume-card-left .front
+{
+background-image: url("https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+background-size: cover;
+position: absolute;
+z-index:50000;
+top:0;
+backface-visibility: hidden;}
+
+ i.mark{
+    position:absolute;
+    font-size:100px;
+    color: #D64B4B;
+    right:12px;
+    padding:0;
+    top:210px;
+    transform: rotateZ(90deg);
+    background-color:transparent;
+}
+.resume-card-left .back{
+        background-color: #fff;
+        position: absolute;
+        z-index:400010;
+        top:0;
+        transform: rotateY(-180deg);
+        overflow-y:scroll; 
+        backface-visibility: hidden;
+        
+        }
+
+
+        .resume-card-wrapper:hover .resume-card-left{
+            transform:rotateY(-180deg);
+        }
+
+.resume-card-left .front h1.heading{
+            
+            font-size:50px;
+            color:#fff;
+            font-weight: 800;
+            font-style: italic;
+            text-shadow: 5px 5px 5px red;
+            text-align:center;
+        }
+        .resume-card-left .front h2{
+        color:#B7D8D4;
+        font-size:20px;
+        font-weight: normal;
+        text-align:center;
+        letter-spacing:1px;
+        text-shadow:5px 5px 5px rgb(0, 0, 0);
+    }
+    .resume-card-left .front h3{
+        color:#FC0;
+        text-shadow:5px 5px 5px rgb(0, 0, 0);
+        padding-bottom:20px;
+    }
+    .resume-card-left .front span{
+        color:#fff;
+        font-weight: normal;
+        font-size:22px;
+        display: block;
+        
+    }
+    .container{
+        margin-top:40px;
+    }
+    .resume-card-left .latest{
+        margin-top:-20px;
+        background-color: #000;
+        height:30px;
+        width:295px;
+        padding-left:12px;
+    }
+    
+    .resume-card-left .latest h4{
+        color:#fff;
+    margin-right:15px;
+    font-size:15px;
+    font-weight: 200;
+    padding:5px;
+    letter-spacing: 2px;
+    }
+    .resume-card-left .mobile-optimised{
+
+        background-color: #F9ED3A;
+        width:220px;
+        padding-left:12px;
+
+    }
+    .resume-card-left .mobile-optimised a{
+    font-size:24px;
+    padding:5px;
+    font-weight:100;
+    color:#000;
+    }
+    .resume-card-left .fb-handle{
+        background-color: #fff;
+        width:100%;
+        height:60px;
+        margin-top:10px;
+
+        
+    }
+    .resume-card-left .fb-handle i{
+        font-size:40px;
+        color:#4267B2;
+        padding:10px;
+        
+    }
+    .resume-card-left .fb-heading{
+        line-height: .5;
+    }
+    .resume-card-left .fb-handle h5{
+        font-size:15px;
+        padding-top:10px;
+    }
+
+/** back of left side **/
+/* resume */
+.resume-card-left .back .resume{
+    background-color: #333333;
+    color:#fff;
+    padding:8px 12px;
+    font-size:24px;
+    border-radius: 5px;
+    font-weight: 800;
+    
+    position: relative;    
+}
+.resume-card-left .back .heading h2{
+    display: inline-block;
+    margin-left:130px;
+    margin-bottom:40px;
+    
+}
+.resume-card-left .back .resume::before{
+    content: "";
+    position: absolute;
+    background-color: #ccc;
+    height:1px;
+    width:300px;
+    top:22px;
+    right:-100px;
+    z-index:-2;
+    
+
+}
+.resume-card-left .about {
+    font-size:16px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom:40px;
+    font-weight: 500;
+}
+.resume-card-left .back .physicist{
+    font-weight:800;
+    font-size:22px;
+    border-bottom:3px solid #333;
+}
+/* 
+employment */
+ .employ{
+    margin-left:125px;
+    padding:5px;
+    text-align:center;
+    font-size:18px;
+    font-weight: 800;
+    border: 2px dotted rgba(0, 0, 0, 0.5);
+    border-radius:4px;
+
+}
+
+.employ-div{
+padding:30px 12px 5px 12px;
+margin-bottom:28px;
+}
+.employ-time h3{
+    font-size:18px;
+    color:#9D9D9D;
+   padding:8px;
+   
+}.employ-time{
+    border:1px solid rgba(0, 0, 0, 0.5);
+    position: absolute;
+    border-radius: 5px;
+}
+.employ-work{
+    width:60%;
+    position: relative;
+    margin-left:150px;
+
+}
+.employ-work h4{
+    margin-bottom:0;
+    font-size:20px;
+}
+.employ-work p{
+    padding-top:12px;
+    font-size:13px;
+    line-height:1.5;
+    font-weight:600;
+  
+}
+
+
+
+
+.employ-time-1::before{
+    content: "";
+position: absolute;
+border-right:2px dotted rgba(0, 0, 0, 0.5);
+height: 120px;
+
+top:60px;
+left:50px;
+z-index:-2;
+}
+
+
+
+.employ-time-2::before{
+    content: "";
+position: absolute;
+border-right:2px dotted rgba(0, 0, 0, 0.5);
+height: 95px;
+
+top:58px;
+left:50px;
+z-index:-2;
+}
+/* educational qualification */
+.education-1::before{
+    content: "";
+position: absolute;
+border-right:2px dotted rgba(0, 0, 0, 0.5);
+height: 95px;
+
+top:58px;
+left:50px;
+z-index:-2;
+}
+
+.down-btn{
+    padding-bottom:58px;
+    text-align: center;
+}
+.btn-download{
+padding:15px 55px 15px 55px;
+border-color: transparent;
+background-color: #333333;
+border-radius: 25px;    
+color:#F8E1E1;
+font-size:18px;
+letter-spacing: 2px;
+}
+.btn-download:hover{
+    background-color: #D64B4B;
+}
+/* SKILLS section */
+.development-skills,.design-skills,.testimonials,.services{
+
+    padding:12px;
+}
+.development-skills h4{
+    margin:0px;
+
+    font-size:18px;
+    font-weight:800px;}
+    
+        
+.design-skills h4{
+    margin:0px;
+
+    font-size:18px;
+    font-weight:800px;}
+    
+.skills{
+
+    margin-left:-25px;
+    padding-bottom:28px;
+}
+.progress-bar-1,.progress-bar-2,.progress-bar-3,.progress-bar-4,.progress-bar-5,.progress-bar-6,.progress-bar-7{
+    
+    background-color: #333333;
+    
+    height:8px;
+    border-radius: 10px;
+}
+.progress-bar-1{
+    width:380px;
+}
+.progress-bar-2{
+    width:300px;
+}
+.progress-bar-3{
+    width:250px;
+
+}
+.progress-bar-4{
+    width:150px;
+    margin-bottom:28px;
+}
+
+.progress-bar-5{
+    width:250px;
+
+}
+
+.progress-bar-6{
+    width:150px;
+
+}
+
+.progress-bar-7{
+    width:100px;
+    margin-bottom:28px;
+
+}
+.design-heading,.testimonials-heading{
+
+    padding-bottom:20px;
+}
+.skills-ui{
+    padding-bottom:20px;
+}
+/* 
+testimonials section */
+.test-image{
+    border-radius: 50%;
+    width:80px;
+    overflow: hidden;
+       
+}
+.testimonials{
+    
+    margin-bottom:20px;
+}
+.test{
+    display: block;
+
+    font-size:14px;
+    color: rgba(0, 0, 0, 0.5);
+    }
+.details-test{
+    width:260px;
+    margin-top:-60px;
+    border:1px solid rgba(0, 0, 0, 0.5);
+    padding:15px 15px 5px 15px;
+    position: relative;
+    
+    margin-left:100px;
+}
+
+.details-test h5{
+font-size:14px;
+font-weight:600;
+padding-bottom:5px;
+}
+.details-test h5 span.test0{
+padding-left:15px;
+font-size:14px;
+color: rgba(0, 0, 0, 0.5);
+}
+.details-test p{
+    font-size:12px;
+    line-height:2;
+    font-weight: 500;
+    color:#333;
+}
+.test-image img{
+    width:100%;
+
+}
+.details-test::before{
+    content: "";
+    position: absolute;
+    top: 2em;
+    right: 100%;
+    width: 0;
+    height: 0;
+    transform: rotateY(180deg);
+    border-top: 18px solid #555;
+    border-left: 0px solid transparent;
+    border-bottom:18px solid transparent;
+    border-right:18px solid transparent;
+}
+
+/* services section*/
+.services-heading{
+    margin-left:25px;
+    padding:28px 0px 48px 0px;
+}
+
+.services{
+    padding-bottom:28px;
+}
+.services i{
+    font-size:50px;
+    color:#666;
+    display: inline-block;
+    
+}
+.services .icons{
+text-align:center;
+}
+.service-heading
+{   padding-top:18px;
+    font-size:18px;
+    font-weight: 600;
+    text-align:center;
+    letter-spacing: 2px;
+}
+
+.services p{
+    text-align: center;
+    font-size:12px;
+    font-weight: 500;
+}
+
+.service-1{
+    padding:12px 0px 14px 0px;
+    
+}
+.service-2{
+    position: relative;
+}
+.service-2::after{
+    content: "";
+background-color: rgba(0, 0, 0, 0.5);
+width:90px;
+height:1px;
+position: absolute;
+bottom:5px;
+z-index:-4;
+left:135px;
+}
+
+/* 
+mid */
+.resume-card-mid{
+    position: absolute;
+    background-color:#fff;
+    width:100%;
+    height:100%;
+    z-index:0;
+    top:0;
+    overflow-y:scroll;
+
+}
+
+.resume-card-mid .resume{
+    background-color: #333333;
+    color:#fff;
+    padding:8px 12px;
+    font-size:24px;
+    border-radius: 5px;
+    font-weight: 800;
+    
+    position: relative;    
+}
+.resume-card-mid .heading h2{
+    display: inline-block;
+    margin-left:120px;
+    margin-bottom:20px;
+    
+}
+.resume-card-mid .resume::before{
+    content: "";
+    position: absolute;
+    background-color: #ccc;
+    height:1px;
+    width:345px;
+    top:22px;
+    right:-100px;
+    z-index:-2;
+    
+
+}
+.mid-navigation ul li.active a{
+color:#333;
+border-bottom:4px solid #333;
+}
+
+.mid-navigation ul{
+    text-align:center;
+}
+.mid-navigation ul li{
+    display: inline-block;
+    padding:5px;
+    margin-right:7px;
+}
+.mid-navigation ul li a{
+    padding:3px;
+    display: block;
+    color:#999;
+    font-size:14px;
+    font-weight:500;
+}
+.mid-navigation ul li a:hover{
+    color:#333;
+    border-bottom: 4px solid #333;
+    text-decoration:none;
+}
+
+
+.image1 {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+
+}
+.image1{
+    animation: anim 10s infinite linear;
+}
+
+.image1 div {
+    height: inherit;
+    width: inherit;
+    background-image: url("http://themes.pixelwars.org/bookcard-wp/wp-content/uploads/2013/05/01.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index:200;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+}
+.image2 div {
+    background-image: url("http://themes.pixelwars.org/bookcard-wp/wp-content/uploads/2013/05/03.jpg");    
+}
+.image3 div{
+    background-image: url("http://themes.pixelwars.org/bookcard-wp/wp-content/uploads/2013/05/07-300x225.jpg");
+}
+.image4 div{
+    background-image: url("http://themes.pixelwars.org/bookcard-wp/wp-content/uploads/2013/05/06-300x225.jpg");
+}
+.image5 div{
+    background-image: url("http://themes.pixelwars.org/bookcard-wp/wp-content/uploads/2013/05/05b-300x225.jpg");
+}
+.image6 div{
+    background-image: url("http://themes.pixelwars.org/bookcard-wp/wp-content/uploads/2013/05/02b.jpg");
+}
+.image7 div{
+    background-image: url("http://themes.pixelwars.org/bookcard-wp/wp-content/uploads/2013/05/10b.jpg");
+}
+.image8 div{
+    background-image: url("http://themes.pixelwars.org/bookcard-wp/wp-content/uploads/2013/05/16.jpg");
+}
+.image9 div{
+    background-image: url("http://themes.pixelwars.org/bookcard-wp/wp-content/uploads/2013/05/14c.jpg");
+}
+.image10 div{
+    background-image: url("http://themes.pixelwars.org/bookcard-wp/wp-content/uploads/2013/05/15.jpg");
+    
+}
+
+.set-last{
+    height:200px;
+    width:90%;
+    margin:0 auto;
+    padding-bottom:48px;
+}
+.big-image{
+    background-image: url("http://themes.pixelwars.org/bookcard-wp/wp-content/uploads/2013/05/11.jpg");
+    background-size: 100% 100%;
+    width:100%;
+    height:100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 2s;
+}
+.big-image{
+    transform: scale3d(0.6,0.6,0.6)
+}
+.set{
+    margin-bottom:48px;
+}
+.back {
+    z-index: -1;
+    transform: translateZ(-150px) rotateY(180deg);
+}
+
+.left {
+    transform: rotateY(90deg);
+    transform-origin: left;
+}
+
+.right {
+    transform: rotateY(-90deg);
+    transform-origin: right;
+}
+
+.top {
+    transform: rotateX(-90deg);
+    transform-origin: top;
+}
+
+.bottom {
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+}
+
+@keyframes anim {
+    0%{
+        transform: rotateX(0deg) rotateY(0deg) scale3d(0.6,0.6,0.6);
+      }
+      
+      100% {
+        transform: rotateX(360deg) rotateY(360deg)  scale3d(0.6,0.6,0.6);
+      }    
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+********************************************************************************** */
+
+/* Right-page backside content */
+.resume-card-right .contact{
+    background-color: #333333;
+    color:#fff;
+    padding:8px 12px;
+    font-size:24px;
+    border-radius: 5px;
+    font-weight: 800;
+    margin-top:38px;
+    position: relative;    
+}
+
+.resume-card-right .heading h2{
+    display: inline-block;
+    margin-left:130px;
+    margin-bottom:40px;
+    
+}
+.resume-card-right .contact::before{
+    content: "";
+    position: absolute;
+    background-color: #ccc;
+    height:1px;
+    width:345px;
+    top:22px;
+    right:-100px;
+    z-index:-2;
+    
+
+}
+
+.resume-card-right .subheading{
+    text-align:center;
+    font-size: 16px;
+    color:#666;
+    padding-bottom:32px;
+}
+.social-media-handle{
+    padding:34px 13px;
+    margin-left:8px;    
+}
+.social-media-handle a{
+    font-size:18px;
+    border:1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding:8px;
+    color:#333;
+    margin-right:10px;
+}
+.social-media-handle .facebook:hover{
+background-color: #3C5FAC;
+color:#fff;
+text-decoration: none;
+border:none;}
+
+.social-media-handle .twitter:hover{
+    background-color:#5EC3DF;
+    color:#fff;
+    text-decoration: none;
+    border:none;
+    }
+
+    
+.social-media-handle .linkedin:hover{
+    background-color:#2089B5;
+    color:#fff;
+    text-decoration: none;
+    border:none;}
+
+
+    .social-media-handle .google:hover{
+        background-color:#C63D2D;
+        color:#fff;
+        text-decoration: none;
+        border:none;}
+        
+    
+        .social-media-handle .pinterest:hover{
+            background-color:#CB2027;
+            color:#fff;
+            text-decoration: none;
+            border:none;}
+            
+            
+        .social-media-handle .github:hover{
+            background-color:#000000;
+            color:#fff;
+            text-decoration: none;
+            border:none;}
+
+            
+        .social-media-handle .behance:hover{
+            background-color:#3878F6;
+            color:#fff;
+            text-decoration: none;
+            border:none;}
+
+            
+        .social-media-handle .dribble:hover{
+            background-color:#EA4C89;
+            color:#fff;
+            text-decoration: none;
+            border:none;}
+
+            .social-media-handle a:hover{
+                animation: social 1s linear;
+        
+            }
+            
+            @keyframes social{
+                0%,10%{
+                    transform:translateY(0px) ;   
+                }
+                20%,30%{
+                    transform:translateY(-10px)  scale(1.5);   
+                }
+                
+                40%,50%{
+                    transform:translateY(-20px)  scale(1.5) rotateX(360deg);   
+                }
+
+                600%,70%{
+                    transform:translateY(-10px)  scale(1.5) ;
+                }
+                
+                800%,100%{
+                    transform:translateY(0px);   
+                }
+
+            }
+
+            .lines{
+                padding:38px 18px 38px 18px;
+            
+            }
+            .lines .line1{
+                width:16px;
+                height:5px;
+                background-color: #D34022;
+            }
+            .lines .line2{
+                background-color: #23355D;
+                height:5px;
+                width:16px;
+            }
+            .bio{
+                text-align: center;
+            }
+            .bio .sign{
+                font-family:'Meie Script' ,cursive;
+                font-size:38px;
+                margin:0;
+            }
+            .bio .gmail{
+                font-size:12px;
+                color: #ff0000;
+                font-weight: normal;
+            }
+            .bio .location{
+                font-size:12px;
+                color:#666;
+            }
+            .profile{
+                width:100px;
+                height:130px;
+                position: relative;
+
+            }
+            .profile img{   
+                position: absolute;
+                top:0;
+                left:160px;
+                width:100%;
+            }
+            .contact-form{
+                    padding:18px;
+            }
+            .contact-form label{
+                display: block;
+                font-size:10px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                padding-bottom:3px;
+            }
+            .contact-form form input{
+                margin-bottom:15px;
+            }
+            .contact-form input[type="text"],input[type="email"]{
+                padding:5px;
+                width:70%;
+            }
+            .contact-form textarea{
+                width:70%;
+                padding:5px;
+                resize:none;
+
+            }
+            .contact-form input[type="submit"]{
+                padding:8px 24px 8px 24px;
+                color:#333;
+                border:2px solid #666;
+                background-color:transparent;
+                display:block;
+                margin:12px 280px;
+                }
+                .contact-form input[type="submit"]:hover{
+                    background-color: #1B2E34;
+                    color:#fff;
+                }
+
+/*scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+/* 
+mid-hover */
+   /* .resume-card-mid:hover{
+    display: block;
+    
+    z-index:9999000;
+} */
+  
+@media(max-width:1200px){
+  .body{
+      background-image: none;
+  }
+    
+    .front,.back{
+        width:100%;
+
+    }
+    .resume-card-wrapper,#container{
+        margin:0 auto;
+        width:100%;
+        
+    
+    }
+    .employ{
+        margin-left:140px;
+    }
+    .profile{ margin-left:30px;}
+    .resume-card-left .back {
+        transform: rotateY(0deg);
+        
+        display:block;
+        margin-top:500px;
+        padding-left:50px;
+        overflow-y: visible;
+         }
+        .resume-card-mid{
+            display:block;
+            margin-top:3700px;
+            padding-left:60px;
+            overflow-y:visible;
+
+        }
+        
+.back,.mid{
+    background-image:none;
+ 
+}
+
+
+
+        .resume-card-right .back{
+            transform: rotateY(0deg);
+            display:block;
+            margin-top:5050px;
+            padding-left:60px;
+            overflow-y:visible;
+            
+        }          
+        .resume-card-wrapper:hover .resume-card-left{
+            transform:rotateY(0deg);
+        }
+        .resume-card-wrapper:hover .resume-card-right{
+            transform:rotateY(0deg);
+        }
+
+        
+         .image1 .back,.top,.bottom,.back,.right,.left{
+            display: none;
+        }
+        .image1:hover{
+            animation:anima 5s linear infinite;
+        }
+        @keyframes anima{
+            0%{
+                transform: translateY(0px) translateX(0px);
+            }
+            25%{
+                transform: translateY(10px) translateX(10px);
+            }
+            50%{
+                transform: translateY(20px) translateX(20px) scale(0.8);
+            }
+            
+            75%{
+                transform: translateY(10px) translateX(10px);
+            }
+            100%{
+                transform:translateY(0px) translateX(0px);
+            }
+        }
+}
+
+
