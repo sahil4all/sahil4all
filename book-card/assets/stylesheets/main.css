@@ -1001,9 +1001,9 @@ mid-hover */
 } */
   
 @media(max-width:1024px){
-  .body{
+/*   .body{
       background-image: none;
-  }
+  } */
     
     .front,.back{
         width:100%;
@@ -1057,10 +1057,10 @@ mid-hover */
             transform:rotateY(0deg);
         }
 
-        
+/*         
          .image1 .back,.top,.bottom,.back,.right,.left{
             display: none;
-        }
+        } */
         .image1:hover{
             animation:anima 5s linear infinite;
            
