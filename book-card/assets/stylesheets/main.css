@@ -54,13 +54,10 @@ h6 {
     background-image:linear-gradient(to right,#fff 90%,rgba(0,0,0,0.5) 100%);}
 
 /* card container */
-#container{
-    margin:0 auto;
-    width:25%;
-    perspective:4000px;
-    margin-left:35%;
-}
+
 .resume-card-wrapper{
+    margin:0 auto;
+    perspective:4000px;
     width:430px;
     height: 510px;
     margin-top:60px;
@@ -156,7 +153,6 @@ backface-visibility: hidden;}
         transform: rotateY(-180deg);
         overflow-y:scroll; 
         backface-visibility: hidden;
-        
         }
 
 
@@ -258,10 +254,14 @@ backface-visibility: hidden;}
     font-weight: 800;
     
     position: relative;    
+
+}
+.resume-card-left .back .heading{
+    text-align: center;
 }
 .resume-card-left .back .heading h2{
     display: inline-block;
-    margin-left:130px;
+    
     margin-bottom:40px;
     
 }
@@ -294,16 +294,21 @@ backface-visibility: hidden;}
 /* 
 employment */
  .employ{
-    margin-left:125px;
+     display: inline-block;
     padding:5px;
-    text-align:center;
+    
     font-size:18px;
     font-weight: 800;
     border: 2px dotted rgba(0, 0, 0, 0.5);
     border-radius:4px;
 
 }
-
+.employs{
+    text-align:center;
+}
+.center{
+    text-align:center;
+}
 .employ-div{
 padding:30px 12px 5px 12px;
 margin-bottom:28px;
@@ -413,7 +418,7 @@ letter-spacing: 2px;
     margin-left:-25px;
     padding-bottom:28px;
 }
-.progress-bar-1,.progress-bar-2,.progress-bar-3,.progress-bar-4,.progress-bar-5,.progress-bar-6,.progress-bar-7{
+.progress-bar-1,.progress-bar-2,.progress-bar-3,.progress-bar-4,.progress-bar-05,.progress-bar-5,.progress-bar-6,.progress-bar-7{
     
     background-color: #333333;
     
@@ -421,7 +426,7 @@ letter-spacing: 2px;
     border-radius: 10px;
 }
 .progress-bar-1{
-    width:380px;
+    width:350px;
 }
 .progress-bar-2{
     width:300px;
@@ -432,9 +437,13 @@ letter-spacing: 2px;
 }
 .progress-bar-4{
     width:150px;
-    margin-bottom:28px;
+   
 }
-
+.progress-bar-05{
+    width:120px;
+    margin-bottom: 28px;
+ 
+}
 .progress-bar-5{
     width:250px;
 
@@ -496,7 +505,8 @@ font-size:14px;
 color: rgba(0, 0, 0, 0.5);
 }
 .details-test p{
-    font-size:12px;
+    font-size:12
+    px;
     line-height:2;
     font-weight: 500;
     color:#333;
@@ -520,10 +530,10 @@ color: rgba(0, 0, 0, 0.5);
 }
 
 /* services section*/
-.services-heading{
+/* .services-heading{
     margin-left:25px;
     padding:28px 0px 48px 0px;
-}
+} */
 
 .services{
     padding-bottom:28px;
@@ -579,6 +589,7 @@ mid */
     z-index:0;
     top:0;
     overflow-y:scroll;
+    
 
 }
 
@@ -592,11 +603,12 @@ mid */
     
     position: relative;    
 }
+.resume-card-mid .heading{
+    text-align: center;
+}
 .resume-card-mid .heading h2{
-    display: inline-block;
-    margin-left:120px;
     margin-bottom:20px;
-    
+    display: inline-block;
 }
 .resume-card-mid .resume::before{
     content: "";
@@ -636,21 +648,19 @@ border-bottom:4px solid #333;
     text-decoration:none;
 }
 
-
+.gallery{
+    margin-top:50px;
+}
 .image1 {
     width: 150px;
     height: 150px;
     margin: 0 auto;
     transform-style: preserve-3d;
-
+    /* transition: transform 3s; */
 }
-.image1{
-    animation: anim 10s infinite linear;
-}
-
 .image1 div {
-    height: inherit;
-    width: inherit;
+    height: 100%;
+    width: 100%;
     background-image: url("http://themes.pixelwars.org/bookcard-wp/wp-content/uploads/2013/05/01.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -733,22 +743,31 @@ border-bottom:4px solid #333;
     transform-origin: bottom;
 }
 
-@keyframes anim {
-    0%{
-        transform: rotateX(0deg) rotateY(0deg) scale3d(0.6,0.6,0.6);
-      }
-      
-      100% {
-        transform: rotateX(360deg) rotateY(360deg)  scale3d(0.6,0.6,0.6);
-      }    
 
+.resume-card-wrapper:hover .image1{
+animation: anima-3d 10s linear infinite;
+animation-delay: 0.5s;
+}
+@keyframes anima-3d{
+    0% {
+        transform: rotateX(0deg) rotateY(0deg) scale3d(0,0,0);
     }
+    25%{
+        transform:  rotateX(0deg) rotateY(0deg) scale3d(0.6,0.6,0.6);
+    }
+    50%{
+        transform: rotateX(180deg) rotateY(180deg) scale3d(0.6,0.6,0.6);
+    }
+    100% {
+        transform: rotateX(0deg) rotateY(0deg) scale3d(0.6,0.6,0.6);
+    }
+}
 
-
-
-
-
-
+/* .image1:hover
+{   
+    transform:scale3d(1.8,1.8,1.8);
+    
+} */
 
 
 
@@ -772,10 +791,12 @@ border-bottom:4px solid #333;
     margin-top:38px;
     position: relative;    
 }
-
+.resume-card-right .heading {
+    text-align: center;
+}
 .resume-card-right .heading h2{
     display: inline-block;
-    margin-left:130px;
+    
     margin-bottom:40px;
     
 }
@@ -926,13 +947,10 @@ border:none;}
             .profile{
                 width:100px;
                 height:130px;
-                position: relative;
-
+                margin:0 auto;
             }
             .profile img{   
-                position: absolute;
-                top:0;
-                left:160px;
+
                 width:100%;
             }
             .contact-form{
@@ -964,7 +982,7 @@ border:none;}
                 border:2px solid #666;
                 background-color:transparent;
                 display:block;
-                margin:12px 280px;
+                margin-top:10px;
                 }
                 .contact-form input[type="submit"]:hover{
                     background-color: #1B2E34;
@@ -992,11 +1010,56 @@ border:none;}
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
-/* 
-mid-hover */
-   /* .resume-card-mid:hover{
-    display: block;
-    
-    z-index:9999000;
-} */
   
+
+  @media(max-width:1200px){
+  
+    .resume-card-wrapper{
+        margin:0 auto;
+        width:99%;
+    }
+    
+    .back{
+        background-image:none;
+           }
+
+           .resume-card-left,.resume-card-mid,.resume-card-right{
+               display: block;
+           }
+    
+    .resume-card-left .back {
+        transform: rotateY(0deg);
+        margin-top:500px;
+    
+        overflow-Y:visible;
+        
+        }
+        
+/* .resume-card-wrapper:hover .image1{
+    animation: none;
+    
+    } */
+        
+        .resume-card-mid{
+            
+            margin-top:2650px;
+            overflow-Y:visible;
+        }
+        .resume-card-right .back{
+            transform: rotateY(0deg);
+            margin-top:4000px;
+            overflow-Y:visible;
+        }
+                 
+        .resume-card-wrapper:hover .resume-card-left{
+            transform: rotateY(0deg);
+        }
+
+        
+        .resume-card-wrapper:hover .resume-card-right{
+            transform: rotateY(0deg);
+        }
+        
+        
+    
+}
