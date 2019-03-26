@@ -1015,10 +1015,6 @@ border:none;}
 
   @media(max-width:1200px){
   
-    .resume-card-wrapper{
-        margin:0 auto;
-        width:99%;
-    }
     
     .back{
         background-image:none;
