@@ -1040,7 +1040,9 @@ border:none;}
 
         background-image: none;
      }
-
+    .resume-card-left .front{
+     background-image:url("https://www.studiofmp.com/wp-content/uploads/2018/4/aesthetic-colored-abstract-ink-explosions-wallpaper-phone-and-ipad.jpg");
+     }
      .resume-card-right .front{
          display: none;
      }
