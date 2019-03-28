@@ -2,9 +2,8 @@
 
 body {
     margin: 0px;
-    background: url("data:image/jpeg;base64,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");
+    background: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/3840x2160/195026.jpg");
     background-size:cover;
-    background-repeat: no-repeat;
     font-family: "Lato", Georgia, serif;
     color:#333;
     
@@ -337,7 +336,7 @@ margin-bottom:28px;
 }
 .employ-work p{
     padding-top:12px;
-    font-size:13px;
+    font-size:0.813em;
     line-height:1.5;
     font-weight:600;
   
@@ -370,6 +369,9 @@ left:50px;
 z-index:-2;
 }
 /* educational qualification */
+.education-1{
+    text-align:center;
+}
 .education-1::before{
     content: "";
 position: absolute;
@@ -428,38 +430,23 @@ letter-spacing: 2px;
     border-radius: 10px;
 }
 .progress-bar-1{
-    width:350px;
+    width:95%;
 }
 .progress-bar-2{
-    width:300px;
+    width:80%;
 }
 .progress-bar-3{
-    width:250px;
+    width:75%;
 
 }
 .progress-bar-4{
-    width:150px;
+    width:70%;
    
 }
 .progress-bar-05{
-    width:120px;
+    width:60%;
     margin-bottom: 28px;
  
-}
-.progress-bar-5{
-    width:250px;
-
-}
-
-.progress-bar-6{
-    width:150px;
-
-}
-
-.progress-bar-7{
-    width:100px;
-    margin-bottom:28px;
-
 }
 .design-heading,.testimonials-heading{
 
@@ -469,68 +456,6 @@ letter-spacing: 2px;
     padding-bottom:20px;
 }
 /* 
-testimonials section */
-.test-image{
-    border-radius: 50%;
-    width:80px;
-    overflow: hidden;
-       
-}
-.testimonials{
-    
-    margin-bottom:20px;
-}
-.test{
-    display: block;
-
-    font-size:14px;
-    color: rgba(0, 0, 0, 0.5);
-    }
-.details-test{
-    width:260px;
-    margin-top:-60px;
-    border:1px solid rgba(0, 0, 0, 0.5);
-    padding:15px 15px 5px 15px;
-    position: relative;
-    
-    margin-left:100px;
-}
-
-.details-test h5{
-font-size:14px;
-font-weight:600;
-padding-bottom:5px;
-}
-.details-test h5 span.test0{
-padding-left:15px;
-font-size:14px;
-color: rgba(0, 0, 0, 0.5);
-}
-.details-test p{
-    font-size:12
-    px;
-    line-height:2;
-    font-weight: 500;
-    color:#333;
-}
-.test-image img{
-    width:100%;
-
-}
-.details-test::before{
-    content: "";
-    position: absolute;
-    top: 2em;
-    right: 100%;
-    width: 0;
-    height: 0;
-    transform: rotateY(180deg);
-    border-top: 18px solid #555;
-    border-left: 0px solid transparent;
-    border-bottom:18px solid transparent;
-    border-right:18px solid transparent;
-}
-
 /* services section*/
 /* .services-heading{
     margin-left:25px;
@@ -769,14 +694,14 @@ animation-delay: 0.5s;
     transition: 1s;
 }
 
-.resume-card-wrapper .image1:hover
+/* .resume-card-wrapper .image1:hover
 {   
-    /* transform:scale3d(1.8,1.8,1.8); */
+    transform:scale3d(1.8,1.8,1.8); */
     /* animation-play-state: paused; */
     /* animation: none; */
-    /* transform: scale(1.5,1.5) !important; */
+    /* transform: scale(1.5,1.5) !important;
 }
-
+ */
 
 
 
@@ -829,21 +754,26 @@ animation-delay: 0.5s;
 }
 .social-media-handle{
     padding:34px 13px;
-    margin-left:8px;    
+    margin-left:8px;  
+    text-align: center;  
 }
 .social-media-handle a{
     font-size:18px;
     border:1px solid rgba(0, 0, 0, 0.5);
     border-radius: 50%;
-    padding:8px;
+    padding:10px;
     color:#333;
     margin-right:10px;
+}
+.social-media-handle .facebook{
+    width:40px;
 }
 .social-media-handle .facebook:hover{
 background-color: #3C5FAC;
 color:#fff;
 text-decoration: none;
-border:none;}
+border:none;
+}
 
 .social-media-handle .twitter:hover{
     background-color:#5EC3DF;
@@ -867,12 +797,6 @@ border:none;}
         border:none;}
         
     
-        .social-media-handle .pinterest:hover{
-            background-color:#CB2027;
-            color:#fff;
-            text-decoration: none;
-            border:none;}
-            
             
         .social-media-handle .github:hover{
             background-color:#000000;
@@ -881,18 +805,8 @@ border:none;}
             border:none;}
 
             
-        .social-media-handle .behance:hover{
-            background-color:#3878F6;
-            color:#fff;
-            text-decoration: none;
-            border:none;}
-
             
-        .social-media-handle .dribble:hover{
-            background-color:#EA4C89;
-            color:#fff;
-            text-decoration: none;
-            border:none;}
+       
 
             .social-media-handle a:hover{
                 animation: social 1s linear;
@@ -1020,43 +934,73 @@ border:none;}
   }
   
 
- @media (max-width:1300px){
-     #container{
-         margin-top:-55px;
-     }
-    .resume-card-wrapper, 
-    .resume-card-left,
-      .resume-card-mid,
-      .resume-card-right,
-      .resume-card-left .front, 
-      .resume-card-right .back,
-      .resume-card-left .back
-      {
-        position: static ;
-        display: block ;
-        height: auto;
-        width:100%;
-        overflow-x: hidden;
 
-        background-image: none;
-     }
-    .resume-card-left .front{
-     background-image:url("https://www.studiofmp.com/wp-content/uploads/2018/4/aesthetic-colored-abstract-ink-explosions-wallpaper-phone-and-ipad.jpg");
-     }
-     .resume-card-right .front{
-         display: none;
-     }
-     .resume-card-right .back
+  @media (max-width:1300px){
+    #container{
+        margin-top:-58px;
+    
+    }
+    
+    
+      .resume-card-wrapper, 
+   .resume-card-left,
+     .resume-card-mid,
+     .resume-card-right,
+     .resume-card-left .front, 
+     .resume-card-right .back,
+     .resume-card-left .back
      {
-         transform: rotateY(0deg);
-     }
-     .resume-card-left .back{
-         transform:  rotateY(0deg);
-     }
-     .resume-card-wrapper:hover .resume-card-left ,
-     .resume-card-wrapper:hover .resume-card-right{
-         transform: none;
-     }
+       position: static ;
+       display: block ;
+       height: auto;
+       width:100%;
+        overflow-x: hidden;
+       background-image: none;
+    }
+    .resume-card-left .front{
+        background-image: url("https://wallpapersite.com/images/wallpapers/dark-background-2880x2560-brown-minimal-hd-6417.jpg") !important;
+        background-size: 100% 100% !important;
+    }
+    .resume-card-wrapper{
+        width:100%;
+    }
+    .service-2::after{
+        display: none;
+    }
 
-     
+    .resume-card-right .front{
+        display: none;
+    }
+    .resume-card-right .back
+    {
+        transform: rotateY(0deg);
+    }
+    .resume-card-left .back{
+        transform:  rotateY(0deg);
+    }
+    .resume-card-wrapper:hover .resume-card-left ,
+    .resume-card-wrapper:hover .resume-card-right{
+        transform: none;
+    }
+
+    .image1{
+               margin-bottom:30px;
+     }
+}
+@media (max-width:424px)
+{
+      .image1{
+        height:100px;
+        width:100px;
+          }
+          .resume-card-wrapper:hover .image1{
+            animation: none;
+        }
+ }  
+ 
+ @media (max-width:400px){
+       .employ-work{
+        margin-left:110px;
+    }
+
  }
