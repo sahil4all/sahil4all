@@ -996,6 +996,10 @@ border:none;
           .resume-card-wrapper:hover .image1{
             animation: none;
         }
+     .top,.left,.bottom,.right,.back{
+            display: none;
+            
+        }
  }  
  
  @media (max-width:400px){
