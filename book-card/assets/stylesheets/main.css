@@ -1007,6 +1007,12 @@ border:none;
     }
     
 }
+@media(max-width:991px){
+    .employ-work {
+        margin-left:150px;
+    }
+}
+
 
 @media (max-width:768px){
     .employ-work{
