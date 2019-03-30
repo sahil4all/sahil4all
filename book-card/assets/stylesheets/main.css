@@ -986,9 +986,49 @@ border:none;
     .image1{
                margin-bottom:30px;
      }
+
+     .employ-time{
+
+        position:static;
+        text-align: center;
+     }
+     .employ-work h4{
+         display:inline-block;
+     }
+     .employ-work p{
+        display: inline-block;
+    }
+    .employ-work{
+        margin-left:210px;
+        text-align: center;
+    }
+    .employ-time::before{
+        display: none;
+    }
+    
 }
-@media (max-width:424px)
+
+@media (max-width:768px){
+    .employ-work{
+        margin-left:150px;
+            }
+            
+.employ-time{
+    position: absolute;
+}
+.employ-work h4{
+    display:block;
+}
+.employ-work p{
+    display: block;
+}
+
+}
+@media (max-width:425px)
 {
+    .employ-time::before{
+        display: unset;
+    }
       .image1{
         height:100px;
         width:100px;
@@ -996,7 +1036,7 @@ border:none;
           .resume-card-wrapper:hover .image1{
             animation: none;
         }
-     .top,.left,.bottom,.right,.back{
+        .top,.left,.bottom,.right,.back{
             display: none;
             
         }
@@ -1004,7 +1044,14 @@ border:none;
  
  @media (max-width:400px){
        .employ-work{
-        margin-left:120px;
+        margin-left:110px;
     }
+    
 
  }
+@media (max-width:360px)
+{
+    .resume-card-left .front h1.heading{
+        font-size: 42px !important;
+           }
+}
