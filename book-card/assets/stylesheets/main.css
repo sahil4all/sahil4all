@@ -936,7 +936,7 @@ border:none;
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
-  @media (min-width:995px) and (max-width:1290px)  
+  @media (min-width:994px) and (max-width:1290px)  
   {body{overflow:hidden;
       }
       .back,.resume-card-mid{
@@ -959,7 +959,7 @@ border:none;
   }
 
 
-  @media (max-width:994px){
+  @media (max-width:993px){
     #container{
         margin-top:-58px;
     
